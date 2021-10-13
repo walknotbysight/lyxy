@@ -1,4 +1,0 @@
-FROM java:8
-LABEL maintainer="Vincent"
-ADD music.jar /music.jar
-CMD java -jar music.jar
