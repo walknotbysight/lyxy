@@ -7,6 +7,7 @@ COPY index.html /usr/share/nginx/html
 COPY index.html /etc/nginx/html
 # 指定后台运行Nginx
 ENTRYPOINT ["usr/sbin/nginx","-g","daemon off;"]
+
 # 指定与外界交互接口为80
 EXPOSE 80
 
